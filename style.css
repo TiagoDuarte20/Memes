@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow: hidden;
+    background-color: black;
+}
+img
+{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+iframe
+{
+    z-index: 1;
+    position: fixed;
+    width: 660px;
+    height: 471px;
+    top: 22%;
+    left: 22%;
+}
+div
+{
+    z-index: 2;
+    position: fixed;
+    width: 660px;
+    height: 471px;
+    top: 22%;
+    left: 22%;
+    background-color: black;
+}
+.dot
+{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 80%;
+    right: 27.3%;
+    background-color: red;
+    cursor: pointer;
+}
